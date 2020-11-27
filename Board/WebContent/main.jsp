@@ -15,7 +15,7 @@
 			<hr class="my-4">
 			<p>로그인 회원가입 게시판 기능을 넣어봤습니다! 필기는 git hub로 했습니다!</p>
 			<a class="btn btn-dark btn-lg"
-				href="https://github.com/Kimginam97/Board" role="button">Github</a>
+				href="https://github.com/Kimginam97/BoardProject" role="button">Github</a>
 		</div>
 	</div>
 
