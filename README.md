@@ -9,7 +9,7 @@
 * oracle
 
 ## DB연결
-1. [DBConnection](https://github.com/Kimginam97/Board/blob/master/Summary/DBConnection.md)
+1. [DBConnection](https://github.com/Kimginam97/BoardProject/blob/master/Summary/DBConnection.md)
 
 ## 메인화면 부분
 
