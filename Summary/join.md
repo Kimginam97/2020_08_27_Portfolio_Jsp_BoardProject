@@ -3,7 +3,7 @@
 ## join
 
 ### userDAO 추가
-```
+```java
 //회원가입
 	public int join(User user)throws Exception {
 		Connection conn = null;
@@ -35,7 +35,7 @@
 ```
 
 ### join의 jsp 구성
-```
+```jsp
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="UTF-8"%>
 	<% request.setCharacterEncoding("utf-8");%>
@@ -84,7 +84,7 @@
 </html>
 ```
 ### joinpro의 jsp 구성
-```
+```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import = "user.UserDAO" %>
