@@ -3,7 +3,7 @@
 ## bbs.java , bbsDAO.java
 
 ### bbs.java 구성
-```
+```java
 package bbs;
 
 public class Bbs {
@@ -57,7 +57,7 @@ public class Bbs {
 ```
 
 ### bbsDAO.java 구성
-```
+```java
 package bbs;
 
 import java.sql.Connection;
