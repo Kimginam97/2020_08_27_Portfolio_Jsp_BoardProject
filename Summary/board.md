@@ -3,7 +3,7 @@
 ## 게시판
 
 ### board.jsp 구성
-```
+```jsp
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="UTF-8"%>
 <%@ page import="java.io.PrintWriter"%>
