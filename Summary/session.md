@@ -3,7 +3,7 @@
 ## logoutAction
 
 ### logoutAction.jsp
-```
+```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ page import="java.io.PrintWriter"%>
@@ -26,7 +26,7 @@
 ```
 
 ### head의 jsp 구성
-```
+```jsp
 
 //userID값을 null초기화 값이 있을경우 userID의 session값 userID값을 객체타입으로 가져온다
 
