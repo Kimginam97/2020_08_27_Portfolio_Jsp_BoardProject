@@ -3,7 +3,7 @@
 ## user.java , userDAO.java
 
 ### user.java 구성
-```
+```java
 package user;
 
 public class User {
@@ -51,7 +51,7 @@ public class User {
 ```
 
 ### userDAO.java 구성
-```
+```java
 package user;
 
 import java.sql.Connection;
