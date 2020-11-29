@@ -3,7 +3,7 @@
 ## index
 
 ### index의 jsp 구성
-```
+```jsp
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
