@@ -21,7 +21,7 @@
 ![2 DBCP정보설정 context](https://user-images.githubusercontent.com/65409092/95291065-aecb8200-08a9-11eb-8932-59f6688b3790.PNG)
 
 ### 3. Server -> context.xml
-```
+```xml
 <Resource auth="Container"
     		name="jdbc/orcl"
     		driverClassName="oracle.jdbc.driver.OracleDriver"
@@ -40,7 +40,7 @@
 ![3 JNDI리소스설정  web](https://user-images.githubusercontent.com/65409092/95291258-15e93680-08aa-11eb-9c45-ab40983f9dc6.PNG)
 
 ### 5. [WebContent] - [WEB-INF]에 web.xml
-```
+```xml
 <resource-ref> 
     <description>basicjsp db</description> 
     <res-ref-name>jdbc/orcl</res-ref-name> 
@@ -50,7 +50,7 @@
 ```
 
 ###  6. 자바 DAO 코드
-```
+```java
 private static UserDAO instance = new UserDAO();
     //.jsp페이지에서 DB연동빈인 UserDAO클래스의 메소드에 접근시 필요
     public static UserDAO getInstance() {
