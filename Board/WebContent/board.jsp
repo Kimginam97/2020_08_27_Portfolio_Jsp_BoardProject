@@ -62,7 +62,7 @@
 				}
 			%>
 			<%
-				if(bbsDAO.nextPage(pageNumber)) {
+				if(bbsDAO.nextPage(pageNumber+1)) {
 			%>
 			<a href="board.jsp?pageNumber=<%=pageNumber + 1%>" class="btn btn-success btn-arrow-right">다음</a>
 			<%

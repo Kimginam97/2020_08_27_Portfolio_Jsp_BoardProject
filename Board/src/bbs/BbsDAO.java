@@ -149,7 +149,7 @@ public class BbsDAO {
 		String sql="";
 		try {
 			conn=getConnection();
-			sql="SELECT * FROM BBS WHERE bbsID <= ? AND bbsAvailable = 1";
+			sql="SELECT * FROM BBS WHERE bbsID < ? AND bbsAvailable = 1";
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setInt(1, getNext() - (pageNumber-1) * 10);
 			rs = pstmt.executeQuery();
