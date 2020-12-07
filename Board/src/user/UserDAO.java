@@ -76,6 +76,10 @@ public class UserDAO {
 			return -1; //존재하지않는 아이디
 		} catch (SQLException e) {
 			e.printStackTrace();
+		}finally {
+			if (rs != null) try { rs.close(); } catch(SQLException ex) {}
+            if (pstmt != null) try { pstmt.close(); } catch(SQLException ex) {}
+            if (conn != null) try { conn.close(); } catch(SQLException ex) {}
 		}
 		return -2; //데이터베이스 오류
 	}
